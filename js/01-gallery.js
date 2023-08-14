@@ -17,7 +17,7 @@ const markupImage = createImageMarkup(galleryItems);
 function createImageMarkup(images) {
     return images.map(image => `
     <li class='gallery__item'>
-    <a class='gallery__link' href='#'>
+    <a class='gallery__link' href='${image.original}'>
     <img class ='gallery__image'
     src=${image.preview}
     data-source=${image.original}
