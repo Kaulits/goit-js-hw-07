@@ -15,7 +15,7 @@ function createImageMarkup(images) {
     <a class='gallery__link' href='${image.original}'>
     <img class ='gallery__image'
     src=${image.preview}
-    alt=${image.description}>
+    alt='${image.description}'>
     </a>
     </li>`).join('');
 }
